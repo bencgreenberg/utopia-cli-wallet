@@ -1,0 +1,25 @@
+[package]
+name = "substrate-rpc-client"
+author = "Ben Greenberg"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cfonts = "1.1.0"
+colored = "2.0.0"
+hex = "0.4.3"
+parity-scale-codec = { version = "3.2.2", features = ["derive"] }
+parity-scale-codec-derive = "3.1.4"
+reqwest = "0.11.14"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.91"
+sp-core = "12.0.0"
+sp-keyring = "14.0.0"
+sp-runtime = "14.0.0"
+structopt = "0.3.26"
+substrate-subxt = "0.16.0"
+subxt = "0.25.0"
+tokio = { version = "1.24.2", features = ["rt-multi-thread"] }
+tracing-subscriber = "0.3.16"
